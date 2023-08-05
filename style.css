@@ -1,0 +1,137 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-weight: 500;
+
+}
+h1{
+    border: 4px solid black;
+    background-color: black;
+    color: antiquewhite;
+    text-align: center;
+    margin-bottom: 5px;
+    text-shadow: 3px 3px 5px red;
+
+}
+h1:hover{
+    background-color: rgb(248, 249, 250);
+    color: red;
+    text-shadow: 3px 3px 5px black;
+}
+.header{
+    position: fixed;
+    top: o;
+    width: 100%;
+}
+nav{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    text-align: justify;
+    height: 50px;
+    position: sticky;
+    
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    display: flex;
+    justify-content: space-evenly;
+}
+nav ul li a{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    color: white;
+    text-decoration: none;
+
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    height: 850px;
+
+}
+#home{
+    content: '';
+    position: absolute;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/003/690/403/non_2x/food-delivery-online-on-phone-orange-background-illustration-fastfood-design-concept-business-shop-promotion-transport-to-home-free-vector.jpg');
+    width:100% ;
+    height: 2000px;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+.main{
+    margin-top: 15px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 5px;
+    border: 4px solid black;
+    text-align: center;
+    text-decoration: solid;
+    font-size: large;
+} 
+.main2{
+    padding: 10px;
+    text-align: center;
+    border: 2px solid black;
+    margin-top: 5px;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+input{
+    border: 3px solid black;
+    padding: 4px;
+}
+h2:hover{
+    background-color: white;
+    color: black;
+}
+.main2:hover{
+    background-color: rgb(247, 248, 249);
+}
+img{
+    width: 160px;
+    border: 3px solid rgb(243, 244, 235);
+    border-radius: 20%;
+    margin-top: 10px;
+
+}
+p{
+    color: white;
+    text-align: center;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.row{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+   z-index: -1;
+   margin-top: 150px;
+   justify-content: space-evenly;
+   padding-bottom: 10px;
+   
+}
+.col{
+    width: 250px;
+    height: 650px;
+    background-color: black;
+    margin: 5px;
+    text-align: center;
+    padding: 10px;
+    align-items: center;
+    border: 3px solid rgb(246, 246, 239);
+
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    height: 40px;
+    padding: 20px;
+}
